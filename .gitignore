@@ -46,4 +46,8 @@ data/
 *.sqlite3
 
 # Dependencies
-node_modules/ 
+node_modules/
+ 
+# Ignore system and log files
+.DS_Store
+streamlit.log
